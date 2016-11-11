@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dbNewAge" Class="LinqtoNewAgeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=CHRISTIE-PC\SQLEXPRESS;Initial Catalog=dbNewAge;Integrated Security=True;Encrypt=False;TrustServerCertificate=True" SettingsObjectName="Engines.Properties.Settings" SettingsPropertyName="dbNewAgeConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblAreaCost" Member="tblAreaCosts">
+    <Type Name="tblAreaCost">
+      <Column Name="AreatCostID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MaterialID" Type="System.String" DbType="NVarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="TotalLenght" Type="System.Decimal" DbType="Decimal(9,2)" CanBeNull="true" />
+      <Column Name="TotalWidth" Type="System.Decimal" DbType="Decimal(9,2)" CanBeNull="true" />
+      <Column Name="TotalCost" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PricePerMeterSQ" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalArea" Type="System.Decimal" DbType="Decimal(9,2)" CanBeNull="true" />
+      <Association Name="tblMaterial_tblAreaCost" Member="tblMaterial" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblMaterial" IsForeignKey="true" />
+      <Association Name="tblMaterialType_tblAreaCost" Member="tblMaterialType" ThisKey="TypeID" OtherKey="TypeID" Type="tblMaterialType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblVolumeCost" Member="tblVolumeCosts">
+    <Type Name="tblVolumeCost">
+      <Column Name="VolumeCostID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MaterialID" Type="System.String" DbType="NVarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="TotalVolume" Type="System.Decimal" DbType="Decimal(9,2)" CanBeNull="true" />
+      <Column Name="PricePerLiter" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TotalCost" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="tblMaterial_tblVolumeCost" Member="tblMaterial" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblMaterial" IsForeignKey="true" />
+      <Association Name="tblMaterialType_tblVolumeCost" Member="tblMaterialType" ThisKey="TypeID" OtherKey="TypeID" Type="tblMaterialType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAtlanticCanvasArea" Member="tblAtlanticCanvasAreas">
+    <Type Name="tblAtlanticCanvasArea">
+      <Column Name="AtlanticCanvasAreaID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MaterialID" Type="System.String" DbType="NVarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="PricePerSqrMeter" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="AreaLength" Type="System.Decimal" DbType="Decimal(9,3)" CanBeNull="true" />
+      <Column Name="AreaWidth" Type="System.Decimal" DbType="Decimal(9,3)" CanBeNull="true" />
+      <Column Name="TotalUsedAreaCost" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="tblMaterial_tblAtlanticCanvasArea" Member="tblMaterial" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblMaterial" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAtlanticCanvasBussCost" Member="tblAtlanticCanvasBussCosts">
+    <Type Name="tblAtlanticCanvasBussCost">
+      <Column Name="AtlanticCanvasBussCostID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MaterialID" Type="System.String" DbType="NVarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="RatePerHour" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="HoursWorked" Type="System.Decimal" DbType="Decimal(2,2)" CanBeNull="true" />
+      <Column Name="TotalBussinessCost" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="tblMaterial_tblAtlanticCanvasBussCost" Member="tblMaterial" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblMaterial" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAtlanticCanvasLength" Member="tblAtlanticCanvasLengths">
+    <Type Name="tblAtlanticCanvasLength">
+      <Column Name="AtlanticCanvasLenID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MaterialID" Type="System.String" DbType="NVarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="FrameID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FrameLenght" Type="System.Decimal" DbType="Decimal(9,3)" CanBeNull="true" />
+      <Column Name="FrameWidth" Type="System.Decimal" DbType="Decimal(9,3)" CanBeNull="true" />
+      <Column Name="NoOfFrames" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TotalUsedFrameCost" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="FrameArea" Type="System.Decimal" DbType="Decimal(9,3)" CanBeNull="true" />
+      <Column Name="CanvasOverlap" Type="System.Decimal" DbType="Decimal(9,3)" CanBeNull="true" />
+      <Column Name="TotalCanvasArea" Type="System.Decimal" DbType="Decimal(9,3)" CanBeNull="true" />
+      <Column Name="TotalFrameLength" Type="System.Decimal" DbType="Decimal(9,3)" CanBeNull="true" />
+      <Association Name="tblFrameType_tblAtlanticCanvasLength" Member="tblFrameType" ThisKey="FrameID" OtherKey="FrameID" Type="tblFrameType" IsForeignKey="true" />
+      <Association Name="tblMaterial_tblAtlanticCanvasLength" Member="tblMaterial" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblMaterial" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAtlanticCanvasVolume" Member="tblAtlanticCanvasVolumes">
+    <Type Name="tblAtlanticCanvasVolume">
+      <Column Name="AtlanticCanvasVolumeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MaterialID" Type="System.String" DbType="NVarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="PricePerLiter" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="LitresUsed" Type="System.Decimal" DbType="Decimal(9,3)" CanBeNull="true" />
+      <Column Name="TotalUsedVolumeCost" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="tblMaterial_tblAtlanticCanvasVolume" Member="tblMaterial" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblMaterial" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblBussinessCost" Member="tblBussinessCosts">
+    <Type Name="tblBussinessCost">
+      <Column Name="BussinessCostID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MaterialID" Type="System.String" DbType="NVarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="CostName" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="RatePerHour" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="tblMaterial_tblBussinessCost" Member="tblMaterial" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblMaterial" IsForeignKey="true" />
+      <Association Name="tblMaterialType_tblBussinessCost" Member="tblMaterialType" ThisKey="TypeID" OtherKey="TypeID" Type="tblMaterialType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblFrameType" Member="tblFrameTypes">
+    <Type Name="tblFrameType">
+      <Column Name="FrameID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[Frame Name]" Member="Frame_Name" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="tblFrameType_tblAtlanticCanvasLength" Member="tblAtlanticCanvasLengths" ThisKey="FrameID" OtherKey="FrameID" Type="tblAtlanticCanvasLength" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblLengthCost" Member="tblLengthCosts">
+    <Type Name="tblLengthCost">
+      <Column Name="LenghtCostID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MaterialID" Type="System.String" DbType="NVarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="NoPieces" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="LengthPerPiece" Type="System.Decimal" DbType="Decimal(9,2)" CanBeNull="true" />
+      <Column Name="TotalLength" Type="System.Decimal" DbType="Decimal(9,2)" CanBeNull="true" />
+      <Column Name="TotalCostPieces" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PricePerMeter" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="tblMaterial_tblLengthCost" Member="tblMaterial" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblMaterial" IsForeignKey="true" />
+      <Association Name="tblMaterialType_tblLengthCost" Member="tblMaterialType" ThisKey="TypeID" OtherKey="TypeID" Type="tblMaterialType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblMaterial" Member="tblMaterials">
+    <Type Name="tblMaterial">
+      <Column Name="MaterialID" Type="System.String" DbType="NVarChar(9) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Description" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="TypeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tblMaterial_tblAreaCost" Member="tblAreaCosts" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblAreaCost" />
+      <Association Name="tblMaterial_tblVolumeCost" Member="tblVolumeCosts" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblVolumeCost" />
+      <Association Name="tblMaterial_tblAtlanticCanvasArea" Member="tblAtlanticCanvasAreas" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblAtlanticCanvasArea" />
+      <Association Name="tblMaterial_tblAtlanticCanvasBussCost" Member="tblAtlanticCanvasBussCosts" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblAtlanticCanvasBussCost" />
+      <Association Name="tblMaterial_tblAtlanticCanvasLength" Member="tblAtlanticCanvasLengths" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblAtlanticCanvasLength" />
+      <Association Name="tblMaterial_tblAtlanticCanvasVolume" Member="tblAtlanticCanvasVolumes" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblAtlanticCanvasVolume" />
+      <Association Name="tblMaterial_tblBussinessCost" Member="tblBussinessCosts" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblBussinessCost" />
+      <Association Name="tblMaterial_tblLengthCost" Member="tblLengthCosts" ThisKey="MaterialID" OtherKey="MaterialID" Type="tblLengthCost" />
+      <Association Name="tblMaterialType_tblMaterial" Member="tblMaterialType" ThisKey="TypeID" OtherKey="TypeID" Type="tblMaterialType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblMaterialType" Member="tblMaterialTypes">
+    <Type Name="tblMaterialType">
+      <Column Name="TypeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MeasureType" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tblMaterialType_tblAreaCost" Member="tblAreaCosts" ThisKey="TypeID" OtherKey="TypeID" Type="tblAreaCost" />
+      <Association Name="tblMaterialType_tblVolumeCost" Member="tblVolumeCosts" ThisKey="TypeID" OtherKey="TypeID" Type="tblVolumeCost" />
+      <Association Name="tblMaterialType_tblBussinessCost" Member="tblBussinessCosts" ThisKey="TypeID" OtherKey="TypeID" Type="tblBussinessCost" />
+      <Association Name="tblMaterialType_tblLengthCost" Member="tblLengthCosts" ThisKey="TypeID" OtherKey="TypeID" Type="tblLengthCost" />
+      <Association Name="tblMaterialType_tblMaterial" Member="tblMaterials" ThisKey="TypeID" OtherKey="TypeID" Type="tblMaterial" />
+    </Type>
+  </Table>
+</Database>

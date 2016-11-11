@@ -1,0 +1,62 @@
+D:\GIT Central\repos\New Age Development\costing\Costing Engine\UserControls\bin\Debug\UserControls.dll
+D:\GIT Central\repos\New Age Development\costing\Costing Engine\UserControls\bin\Debug\UserControls.pdb
+D:\GIT Central\repos\New Age Development\costing\Costing Engine\UserControls\bin\Debug\Engines.dll
+D:\GIT Central\repos\New Age Development\costing\Costing Engine\UserControls\bin\Debug\Engines.pdb
+D:\GIT Central\repos\New Age Development\costing\Costing Engine\UserControls\obj\Debug\UserControls.csprojResolveAssemblyReference.cache
+D:\GIT Central\repos\New Age Development\costing\Costing Engine\UserControls\obj\Debug\UserControls.GenericCostingControl.resources
+D:\GIT Central\repos\New Age Development\costing\Costing Engine\UserControls\obj\Debug\UserControls.csproj.GenerateResource.Cache
+D:\GIT Central\repos\New Age Development\costing\Costing Engine\UserControls\obj\Debug\UserControls.dll
+D:\GIT Central\repos\New Age Development\costing\Costing Engine\UserControls\obj\Debug\UserControls.pdb
+D:\GIT Central\repos\GIT Costing\Costing Engine\UserControls\bin\Debug\UserControls.dll
+D:\GIT Central\repos\GIT Costing\Costing Engine\UserControls\bin\Debug\UserControls.pdb
+D:\GIT Central\repos\GIT Costing\Costing Engine\UserControls\bin\Debug\Engines.dll
+D:\GIT Central\repos\GIT Costing\Costing Engine\UserControls\bin\Debug\Engines.pdb
+D:\GIT Central\repos\GIT Costing\Costing Engine\UserControls\obj\Debug\UserControls.csprojResolveAssemblyReference.cache
+D:\GIT Central\repos\GIT Costing\Costing Engine\UserControls\obj\Debug\UserControls.GenericCostingControl.resources
+D:\GIT Central\repos\GIT Costing\Costing Engine\UserControls\obj\Debug\UserControls.csproj.GenerateResource.Cache
+D:\GIT Central\repos\GIT Costing\Costing Engine\UserControls\obj\Debug\UserControls.dll
+D:\GIT Central\repos\GIT Costing\Costing Engine\UserControls\obj\Debug\UserControls.pdb
+D:\GIT Central\repos\GIT Costing\Costing Engine\UserControls\obj\Debug\UserControls.MaskedEditableLabelControl.resources
+D:\GIT Central\smartydevelopmentrepo\NewAgeDevelopment\UserControls\bin\Debug\UserControls.dll
+D:\GIT Central\smartydevelopmentrepo\NewAgeDevelopment\UserControls\bin\Debug\UserControls.pdb
+D:\GIT Central\smartydevelopmentrepo\NewAgeDevelopment\UserControls\bin\Debug\Engines.dll
+D:\GIT Central\smartydevelopmentrepo\NewAgeDevelopment\UserControls\bin\Debug\Engines.pdb
+D:\GIT Central\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.csprojResolveAssemblyReference.cache
+D:\GIT Central\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.GenericCostingControl.resources
+D:\GIT Central\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.MaskedEditableLabelControl.resources
+D:\GIT Central\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.csproj.GenerateResource.Cache
+D:\GIT Central\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.dll
+D:\GIT Central\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.pdb
+D:\GIT Central\Branch\smartydevelopmentrepo\NewAgeDevelopment\UserControls\bin\Debug\UserControls.dll
+D:\GIT Central\Branch\smartydevelopmentrepo\NewAgeDevelopment\UserControls\bin\Debug\UserControls.pdb
+D:\GIT Central\Branch\smartydevelopmentrepo\NewAgeDevelopment\UserControls\bin\Debug\Engines.dll
+D:\GIT Central\Branch\smartydevelopmentrepo\NewAgeDevelopment\UserControls\bin\Debug\Engines.pdb
+D:\GIT Central\Branch\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.csprojResolveAssemblyReference.cache
+D:\GIT Central\Branch\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.GenericCostingControl.resources
+D:\GIT Central\Branch\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.MaskedEditableLabelControl.resources
+D:\GIT Central\Branch\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.csproj.GenerateResource.Cache
+D:\GIT Central\Branch\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.dll
+D:\GIT Central\Branch\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.pdb
+D:\GIT Central\Branch\smartydevelopmentrepo\NewAgeDevelopment\UserControls\obj\Debug\UserControls.GenericAtlanticCostingControl.resources
+D:\GIT Central\Branch\Hub Branvh\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\bin\Debug\UserControls.dll
+D:\GIT Central\Branch\Hub Branvh\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\bin\Debug\UserControls.pdb
+D:\GIT Central\Branch\Hub Branvh\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\bin\Debug\Engines.dll
+D:\GIT Central\Branch\Hub Branvh\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\bin\Debug\Engines.pdb
+D:\GIT Central\Branch\Hub Branvh\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.csprojResolveAssemblyReference.cache
+D:\GIT Central\Branch\Hub Branvh\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.GenericAtlanticCostingControl.resources
+D:\GIT Central\Branch\Hub Branvh\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.GenericCostingControl.resources
+D:\GIT Central\Branch\Hub Branvh\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.MaskedEditableLabelControl.resources
+D:\GIT Central\Branch\Hub Branvh\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.csproj.GenerateResource.Cache
+D:\GIT Central\Branch\Hub Branvh\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.dll
+D:\GIT Central\Branch\Hub Branvh\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.pdb
+D:\GIT Central\GIT HUB\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\bin\Debug\UserControls.dll
+D:\GIT Central\GIT HUB\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\bin\Debug\UserControls.pdb
+D:\GIT Central\GIT HUB\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\bin\Debug\Engines.dll
+D:\GIT Central\GIT HUB\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\bin\Debug\Engines.pdb
+D:\GIT Central\GIT HUB\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.csprojResolveAssemblyReference.cache
+D:\GIT Central\GIT HUB\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.GenericAtlanticCostingControl.resources
+D:\GIT Central\GIT HUB\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.GenericCostingControl.resources
+D:\GIT Central\GIT HUB\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.MaskedEditableLabelControl.resources
+D:\GIT Central\GIT HUB\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.csproj.GenerateResource.Cache
+D:\GIT Central\GIT HUB\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.dll
+D:\GIT Central\GIT HUB\NewAgeDevelopmentHub\NewAgeDevelopment\UserControls\obj\Debug\UserControls.pdb
