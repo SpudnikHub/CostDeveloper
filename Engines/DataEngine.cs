@@ -244,6 +244,18 @@ namespace Engines
             }
         }
 
+        public static tblAtlanticCanvasArea GetAtlanticArea(String materialID)
+        {
+            using (LinqtoNewAgeDataContext dc = new LinqtoNewAgeDataContext())
+            {
+                return (from ord in dc.GetTable<tblAtlanticCanvasArea>()
+                        join m in dc.tblMaterials
+                        on ord.MaterialID equals m.MaterialID
+                        where ord.MaterialID == materialID
+                        select ord).SingleOrDefault<tblAtlanticCanvasArea>();
+            }
+        }
+
         #endregion Select
 
         #region Insert
