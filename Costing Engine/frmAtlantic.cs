@@ -52,7 +52,7 @@ namespace Costing_Engine
             l = cmbLengthMaterial.SelectedItem as Accessor.AtlanticCanvasLenght;
             this.Size = new System.Drawing.Size(600, 450);
             string id = l.MaterialID;
-            tblAtlanticCanvasLength o = DataEngine.GetAtlanticLength(1, id);
+          //TODO Delete  tblAtlanticCanvasLength o = DataEngine.GetAtlanticLength(1, id);
             tblMaterial mat = DataEngine.GetMaterial(id);
             
 
@@ -105,6 +105,10 @@ namespace Costing_Engine
             SetDisplay();
         }
 
+        #region Checkboxes
+
+        #region Area
+
         private void chkCanvas_CheckedChanged(Object sender, EventArgs e)
         {
 
@@ -135,6 +139,9 @@ namespace Costing_Engine
 
         }
 
+        #endregion Area
+
+        #region Volume
         private void chkPaster_CheckedChanged(Object sender, EventArgs e)
         {
 
@@ -159,6 +166,12 @@ namespace Costing_Engine
         {
 
         }
+
+        #endregion Volume
+
+
+        #endregion Checkboxes
+
         private void tabAreaSummary_Click(Object sender, EventArgs e)
         {
 

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<AreaConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">AreaAttributes<CanvasCost>false</CanvasCost><PhotoPaperCost>false</PhotoPaperCost><MountBoardCost>false</MountBoardCost><HardboardCost>false</HardboardCost><PrinterInkCost>false</PrinterInkCost><BrownPaperCost>false</BrownPaperCost></AreaConfiguration>

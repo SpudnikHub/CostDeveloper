@@ -26,8 +26,26 @@ namespace Test
             genericAtlanticCostingControl1.MaterialID = "";
             comboBox1.DataSource = atl;
             string canvas = ConfigurationManager.AppSettings["CanvasOverlap"];
-            MessageBox.Show(canvas);
+            ConfigurationManager.AppSettings["CanvasOverlap"] = "test";
 
+            EngineConfiguration.AreaConfiguration area = new EngineConfiguration.AreaConfiguration();
+            area.AreaAttributes = "AreaAttributes";
+            area.CanvasCost = false;
+            area.PhotoPaperCost = false;
+            area.MountBoardCost = false;
+            area.HardboardCost = false;
+            area.PrinterInkCost = false;
+            area.BrownPaperCost = false;
+
+            area.Save("Configurtion.xml");
+
+
+
+            EngineConfiguration.AreaConfiguration sh = EngineConfiguration.AreaConfiguration.loadFromFile("Configurtion.xml");
+            MessageBox.Show(sh.HardboardCost.ToString());
+
+          
+         
 
         }
 
