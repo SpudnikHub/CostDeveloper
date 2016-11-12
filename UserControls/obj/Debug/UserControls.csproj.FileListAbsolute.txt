@@ -71,3 +71,14 @@ D:\GIT Central\GIT HUB\Spudnik\UserControls\obj\Debug\UserControls.MaskedEditabl
 D:\GIT Central\GIT HUB\Spudnik\UserControls\obj\Debug\UserControls.csproj.GenerateResource.Cache
 D:\GIT Central\GIT HUB\Spudnik\UserControls\obj\Debug\UserControls.dll
 D:\GIT Central\GIT HUB\Spudnik\UserControls\obj\Debug\UserControls.pdb
+D:\GIT Central\GIT HUB\SpudnikFork\CostDeveloper\UserControls\bin\Debug\UserControls.dll
+D:\GIT Central\GIT HUB\SpudnikFork\CostDeveloper\UserControls\bin\Debug\UserControls.pdb
+D:\GIT Central\GIT HUB\SpudnikFork\CostDeveloper\UserControls\bin\Debug\Engines.dll
+D:\GIT Central\GIT HUB\SpudnikFork\CostDeveloper\UserControls\bin\Debug\Engines.pdb
+D:\GIT Central\GIT HUB\SpudnikFork\CostDeveloper\UserControls\obj\Debug\UserControls.csprojResolveAssemblyReference.cache
+D:\GIT Central\GIT HUB\SpudnikFork\CostDeveloper\UserControls\obj\Debug\UserControls.GenericAtlanticCostingControl.resources
+D:\GIT Central\GIT HUB\SpudnikFork\CostDeveloper\UserControls\obj\Debug\UserControls.GenericCostingControl.resources
+D:\GIT Central\GIT HUB\SpudnikFork\CostDeveloper\UserControls\obj\Debug\UserControls.MaskedEditableLabelControl.resources
+D:\GIT Central\GIT HUB\SpudnikFork\CostDeveloper\UserControls\obj\Debug\UserControls.csproj.GenerateResource.Cache
+D:\GIT Central\GIT HUB\SpudnikFork\CostDeveloper\UserControls\obj\Debug\UserControls.dll
+D:\GIT Central\GIT HUB\SpudnikFork\CostDeveloper\UserControls\obj\Debug\UserControls.pdb
